@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="SalesandInventoryManagement.exe" version="1.0.0.6" publicKeyToken="0c27bd4d5bd242b8" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="logoicon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="SalesandInventoryManagement" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="SalesandInventoryManagement.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Guna.UI2.dll" size="2161544">
+      <assemblyIdentity name="Guna.UI2" version="2.0.4.6" publicKeyToken="8B9D14AA5142E261" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>msi2XlwTKSqOVkGHwedEatxCMCKLZpODvXsHA1q5moI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SalesandInventoryManagement.exe" size="1241560">
+      <assemblyIdentity name="SalesandInventoryManagement" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>3fulj79nj4OD/3txO6BX3aBKxOL17HX5o4ckP6U2wNE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="logoicon.ico" size="59370">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>i2cV8WLFbGKZSXaqN08e7lO6AHIyzcIuF1T8iHiywcs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SalesandInventoryManagement.exe.config" size="1487">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>mPdgBaQ0x7UYCk2hjbC4HeB9UlZgLpYPsQnopxvZds8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-O297SIF\jeng" issuerKeyHash="bc858f0b9ea77087d31a565a3891e9d6fa2393f1" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>OFTVFyDtgxAeAop8p3gDJa5x5SGgB35canCvSLTXZYQ=</DigestValue></Reference></SignedInfo><SignatureValue>X6uMAUovs+V8uD/2tuNU6KfWZNBCTqzkbkdozvXOdoiucyoWPy0OdZ2jF/c9BTFLH6o4dwgWeymduupLoJXJycqoMxQ8Zf5UAYVyCBQm4UeXZUQKUEshz7cyRNOJj36nv74VktRRWLHgMK5uCt2UV7pFJJZgxV4x0yKoRpcM9jY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>+NVyln6Pc+/KKVHt9eD/d3DbV+KzhFGUkNs0nnWbUbF+h0Neq22EXDYXBWVxiBkCdj+5PhvONSVZw3k/R4JO9CUM7XGvTW5gLxIezDAUbwjNnO35X2rBVF0ErSBFcnQlIT+la4CD0ghK1uE8UEOVDp0Jo4WOe9ChIZC3ySeKnDE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="8465d7b448af706a5c7e07a021e571ae250378a77c8a021e1083ed2017d55438" Description="" Url=""><as:assemblyIdentity name="SalesandInventoryManagement.exe" version="1.0.0.6" publicKeyToken="0c27bd4d5bd242b8" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-O297SIF\jeng</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>OuSgYCnFp5JbMP0eZUGQMdgNQrouXS+G65HQYV66YU0=</DigestValue></Reference></SignedInfo><SignatureValue>PccSg8OD8B2SIcRigWTFKhCgyM/pNLrc+wrqRioT7Yv7J9SChfNwoKxTu7Mn2Dnh4w6n/GRp24FWZ8d+SIqZ/4P4RTtPm6e/8MXaSq3DqqLi+OQDJFa/4Obc8YmsHJgyEmUQPCMgbDGcNXGlJjQjb4nC4u3GbDqDmV04ZrM36JU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>+NVyln6Pc+/KKVHt9eD/d3DbV+KzhFGUkNs0nnWbUbF+h0Neq22EXDYXBWVxiBkCdj+5PhvONSVZw3k/R4JO9CUM7XGvTW5gLxIezDAUbwjNnO35X2rBVF0ErSBFcnQlIT+la4CD0ghK1uE8UEOVDp0Jo4WOe9ChIZC3ySeKnDE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQKgHXeKdlubBKbb0svK8y6TANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigARABFAFMASwBUAE8AUAAtAE8AMgA5ADcAUwBJAEYAXABqAGUAbgBnMB4XDTI0MDUxODE0MjE1OFoXDTI1MDUxODIwMjE1OFowMzExMC8GA1UEAx4oAEQARQBTAEsAVABPAFAALQBPADIAOQA3AFMASQBGAFwAagBlAG4AZzCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA+NVyln6Pc+/KKVHt9eD/d3DbV+KzhFGUkNs0nnWbUbF+h0Neq22EXDYXBWVxiBkCdj+5PhvONSVZw3k/R4JO9CUM7XGvTW5gLxIezDAUbwjNnO35X2rBVF0ErSBFcnQlIT+la4CD0ghK1uE8UEOVDp0Jo4WOe9ChIZC3ySeKnDECAwEAATANBgkqhkiG9w0BAQsFAAOBgQDhTLlLAq+cailXMPbJnmfCY+hOxvbSRw8UkluLQGNRayTcHBaehvjj0VtsG+7RueWkfsJWfT0WPODGkUa9An9BjH0M0TBrc5CuuMmHhauqCRzfePHJYKPbwNg0C6rwTXujqGFio1aJynuZ9xqMXK7dCTKvp+6gGdaU3AqSb3ZJ3g==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
